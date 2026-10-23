@@ -9,4 +9,3 @@ data_a = (38, 165.5, "Daniel")
 data_b = {b"Hello", b"World"}
 
 process_items(data_a, data_b)
-
