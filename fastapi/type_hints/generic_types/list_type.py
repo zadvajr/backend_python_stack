@@ -4,7 +4,7 @@
 def process_items(items: list[str]):
     """prints items in a list of strings"""
     for item in items:
-        print(item)
+        print(item.upper())
 
 fruits = ["Apple", "Banana", "Cherry"]
 
