@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/items/")
 async def read_items(q: Annotated[
-    str | None, Query(min_length=3, max_length=50, pattern="^fixedquery$")
+    str | None, Query(min_length=3, max_length=50, pattern="^Abc$")
     ] = None):
     """read items"""
     results = {"items": [{"item_id": "Foo"}, {"item_id": "Bar"}]}
