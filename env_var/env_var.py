@@ -9,3 +9,8 @@ Environment Variables
 # You can create environment variables without in the shell without needing python
 # e.g. Windows PS: $Env:MY_VAR = "Daniel"
 # Use it as: echo "Hello $Env:MY_VAR" will print: Hello Daniel
+
+# In Linux/MacOS/Windows Bash
+# Creatign Env Var: export USER_NAME="Daniel"
+# Use it as: echo "Hello $USER_NAME"
+
