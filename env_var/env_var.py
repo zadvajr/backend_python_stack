@@ -14,3 +14,9 @@ Environment Variables
 # Creatign Env Var: export USER_NAME="Daniel"
 # Use it as: echo "Hello $USER_NAME"
 
+# Read env vars in python
+# You can as well create env vars in the terminal or any other method and read them in python
+import os
+
+user_name = os.getenv("USER_NAME", "Default User")
+print(f"Hello {user_name} from python")
